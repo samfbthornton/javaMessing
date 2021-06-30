@@ -12,7 +12,7 @@ public class Calculator {
 		return product;
 	}
 
-	public static int subtract(int a, int b) {
+	public static double subtract(int a, int b) {
 		int subtract = a - b;
 		return subtract;
 	}

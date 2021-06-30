@@ -2,34 +2,20 @@ package operators;
 
 public class ScienceExams {
 
-	public static void method1() {
+	public static int physicsResult = 102;
+	public static int chemistryResult = 148;
+	public static int biologyResult = 47;
+	public static int totalScore = physicsResult + chemistryResult + biologyResult;
 
-		double physicsResult = 102;
-		double chemistryResult = 148;
-		double biologyResult = 47;
-		double total = physicsResult + chemistryResult + biologyResult;
+	public static int totalScore() {
 
-		System.out.println("Physics Result: " + physicsResult);
-		System.out.println("Chemistry Result: " + chemistryResult);
-		System.out.println("Biology Result: " + biologyResult);
-		System.out.println("TOTAL SCORE: " + total);
-
+		int totalScore = physicsResult + chemistryResult + biologyResult;
+		return totalScore;
 	}
 
-	public static void method2() {
+	public static double getPercentage() {
 
-		double physicsResult = 102;
-		double chemistryResult = 148;
-		double biologyResult = 47;
-		double total = physicsResult + chemistryResult + biologyResult;
-		double percentage = (total * 100) / 450;
-
-		System.out.println("PERCENTAGE: " + percentage + "%");
-	}
-
-	public static void main(String[] args) {
-		method1();
-		method2();
-
+		double getPercentage = (totalScore * 100) / 450;
+		return getPercentage;
 	}
 }
