@@ -2,18 +2,18 @@ package calculator;
 
 public class Calculator {
 
-	public static double sum(double a, double b) {
-		double sum = a + b;
+	public static int sum(int a, int b) {
+		int sum = a + b;
 		return sum;
 	}
 
-	public static double product(double a, double b) {
-		double product = a * b;
+	public static int product(int a, int b) {
+		int product = a * b;
 		return product;
 	}
 
-	public static double subtract(double a, double b) {
-		double subtract = a - b;
+	public static int subtract(int a, int b) {
+		int subtract = a - b;
 		return subtract;
 	}
 
